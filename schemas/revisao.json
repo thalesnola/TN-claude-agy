@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "veredito": {"type": "string", "enum": ["aprovado", "aprovado-com-ressalvas", "reprovado"]},
+    "achados": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "gravidade": {"type": "string", "enum": ["critica", "alta", "media", "baixa"]},
+          "arquivo": {"type": "string"},
+          "linha": {"type": "integer"},
+          "problema": {"type": "string"},
+          "correcao": {"type": "string"},
+          "verificado": {"type": "boolean", "description": "true se confirmado no codigo lido; false se suposicao"}
+        },
+        "required": ["gravidade", "arquivo", "problema", "verificado"]
+      }
+    },
+    "resumo": {"type": "string"}
+  },
+  "required": ["veredito", "achados", "resumo"]
+}

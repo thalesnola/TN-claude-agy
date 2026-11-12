@@ -1,0 +1,11 @@
+# Copiar para ~/.claude/argon.toml e ajustar por máquina.
+
+[sigilo]
+# Pastas de caso: o agy nunca roda nelas nem recebe arquivo delas.
+# C:\Casos e ~/Casos já entram sempre; aqui vão as pastas de acervo do ACERVO.
+pastas_caso = [
+  # 'C:\ACERVO\<pasta-de-acervo>',
+]
+# Motor de detecção (CPF, CNJ, telefone...). Sem ele a ponte recusa tudo.
+# Vazio = procura em C:\ACERVO\... e ~/ACERVO/...
+# auditor = 'C:\ACERVO\Segundo_Cerebro\.sistema\scripts\auditar.py'

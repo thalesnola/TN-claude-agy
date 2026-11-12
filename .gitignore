@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# Config por máquina; o modelo versionado é argon.exemplo.toml.
+argon.toml

@@ -1,0 +1,13 @@
+{
+  "name": "argon-local",
+  "owner": {
+    "name": "local-user"
+  },
+  "plugins": [
+    {
+      "name": "argon",
+      "source": "./",
+      "description": "Gemini 4 Argon via agy dentro do Claude Code, com perfil isolado e porta de sigilo."
+    }
+  ]
+}

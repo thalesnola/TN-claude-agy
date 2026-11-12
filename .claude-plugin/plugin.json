@@ -1,0 +1,8 @@
+{
+  "name": "argon",
+  "version": "0.1.0",
+  "description": "Gemini 4 Argon e o catálogo do agy (conta Google) a serviço do Opus: contraprova de outra família, leitura e resumo que poupam contexto, pesquisa web citada e delegação de escrita pela cota Google. Perfil isolado, cópia do trabalho e porta de sigilo: nunca dado de caso.",
+  "author": {
+    "name": "local-user"
+  }
+}
